@@ -18,12 +18,6 @@ The goal was to perform **load testing** and **stress testing** on the API with 
 2. Load the test plan file: `booking.jmx`.
 3. Run the test in GUI or CLI mode.
 
-### Run from CLI:
-```bash
-jmeter -n -t booking.jmx -l booking.jtl -e -o report
-
----
-
 ## 🖼️ Screenshots
 
 ### Request Summary (Aggregate Report)
@@ -41,4 +35,12 @@ jmeter -n -t booking.jmx -l booking.jtl -e -o report
 ![Excel Report 1](screenshots/excel-report-1.png)
 ![Excel Report 2](screenshots/excel-report-2.png)
 
+
+
+### Run from CLI:
+```bash
+jmeter -n -t booking.jmx -l booking.jtl -e -o report
+
 ---
+
+
